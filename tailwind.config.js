@@ -3,9 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      outfit: ["Outfit", "sans-serif"],
+      Outfit: ["Outfit", "system-ui"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#ffcf3a",
+        secondary: "#0063ff",
+      },
+    },
   },
   plugins: [],
 };
