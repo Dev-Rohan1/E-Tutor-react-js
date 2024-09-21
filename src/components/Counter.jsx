@@ -4,7 +4,7 @@ const Counter = () => {
   return (
     <section className="bg-secondary">
       <div className="container">
-        <div className="counter_grid text-white text-center py-4">
+        <div className="counter_grid text-white text-center">
           <div className="mb-6 lg:mb-0">
             <p className="text-4xl font-bold">
               {" "}

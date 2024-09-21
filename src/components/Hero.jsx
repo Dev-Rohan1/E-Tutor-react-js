@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaRegCirclePlay } from "react-icons/fa6";
-import { slideRigth } from "../utility/Animation";
 import hero_image from "../assets/hero.png";
+import { slideRigth } from "../utility/Animation";
 
 const Hero = () => {
   return (
