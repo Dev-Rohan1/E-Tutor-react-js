@@ -10,7 +10,7 @@ const Counter = () => {
               {" "}
               <CountUp
                 start={0}
-                end={872}
+                end={898}
                 duration={3}
                 enableScrollSpy={true}
                 scrollSpyOnce={true}
@@ -23,7 +23,6 @@ const Counter = () => {
               <p className="text-4xl font-bold">
                 {" "}
                 <CountUp
-                  start={0}
                   end={20000}
                   separator=","
                   suffix="+"
@@ -39,7 +38,6 @@ const Counter = () => {
             <p className="text-4xl font-bold">
               {" "}
               <CountUp
-                start={0}
                 end={298}
                 duration={3}
                 enableScrollSpy={true}
@@ -52,7 +50,6 @@ const Counter = () => {
             <p className="text-4xl font-bold">
               {" "}
               <CountUp
-                start={0}
                 end={72878}
                 separator=","
                 suffix="+"
