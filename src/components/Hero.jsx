@@ -5,7 +5,7 @@ import { slideRigth } from "../utility/Animation";
 
 const Hero = () => {
   return (
-    <section id="home">
+    <section>
       <div className="container">
         <div className="flex items-center justify-between flex-col md:flex-row">
           <div className="flex items-center justify-center flex-col md:items-start">
@@ -44,7 +44,7 @@ const Hero = () => {
                 Get Started
               </button>
               <button
-                className="flex items-center justify-center gap-2 text-lg font-medium border-2 border-secondary rounded-lg w-full h-11 mt-3
+                className="flex items-center justify-center gap-2 text-lg font-medium   w-full h-11 mt-3
               md:border-0  md:w-auto md:h-auto"
               >
                 <FaRegCirclePlay className="text-3xl text-secondary" />

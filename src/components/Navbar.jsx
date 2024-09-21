@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { BsLaptopFill } from "react-icons/bs";
 import { HiOutlineMenu } from "react-icons/hi";
 import { FaXmark } from "react-icons/fa6";
